@@ -4,11 +4,11 @@
 */
 function mostrar()
 {
-    var nombre, elNombre;
+    var nombre;
 
     nombre=prompt("ingrese su nombre");
 
-    nombre=document.getElementById("elNombre").value;
+    document.getElementById("elNombre").value= nombre;
     
 
 
